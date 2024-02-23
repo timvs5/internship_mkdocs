@@ -1,0 +1,21 @@
+site_name: Data science game - bevindingen
+
+plugins:
+    - search
+    - mermaid2
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      toc_depth: 3
+
+theme:
+  name: readthedocs
+
+nav:
+  - Algemeen: index.md
+  - In browser: browser.md
+  - Op server: server.md
+  - Visualisatie: visualisatie.md
+
+
